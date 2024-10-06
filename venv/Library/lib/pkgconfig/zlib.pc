@@ -1,0 +1,13 @@
+prefix=C:/Become_Datascientist/Detailed-exploratory-data-analysis-with-python/venv/Library
+exec_prefix=C:/Become_Datascientist/Detailed-exploratory-data-analysis-with-python/venv/Library
+libdir=C:/Become_Datascientist/Detailed-exploratory-data-analysis-with-python/venv/Library/lib
+sharedlibdir=C:/Become_Datascientist/Detailed-exploratory-data-analysis-with-python/venv/Library/lib
+includedir=C:/Become_Datascientist/Detailed-exploratory-data-analysis-with-python/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
